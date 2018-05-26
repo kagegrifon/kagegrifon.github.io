@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic');
+
+body {
+    padding: 50px;
+    font-family: 'Roboto', "Arial", sans-serif;
+}
+
+input{
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 16px;
+}
+
+.tast-block {
+    width: 750px;
+    margin: auto;
+    position: relative;
+}
+
+.tast-block-canvas {
+    border: 1px solid #8e8989;
+    border-radius: 5px;
+}
+.tast-expression {
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    font-size: 26px;
+}
+
+.tast-expression span {
+    border-radius: 3px;
+}
+
+.expression-result{
+    width: 1.5em;
+    text-align: left;
+    font: inherit;
+}
+
+.solveNumber {
+    position: absolute;
+    width: 1em;
+    line-height: normal;
+    text-align: center;
+}
+
+.solveNumber1 {
+    top: 55px;
+    left: 90px;
+}
+
+.solveNumber2 {
+    top: 69px;
+    left: 214px;
+    display: none;
+}
+
+.marked-background {
+    background-color: #dd9249;
+}
+
+.marked-text{
+    color: red;
+}
+
+.input-readonly {
+    border: none;
+}
+
+.hidden-img{
+    display: none;
+}

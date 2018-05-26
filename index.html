@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сложение чисел на оси</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="tast-block">
+       <canvas id="canvas" class="tast-block-canvas"></canvas>
+       <p class="tast-expression">
+           <span id='exprNumber1'></span>
+           +
+           <span id='exprNumber2'></span>
+            =
+            <input id='exprResult' class='expression-result input-readonly' value='?' readonly>
+       </p>
+       <input class="solveNumber solveNumber1" type="text" id="solveNumber1">
+       <input class="solveNumber solveNumber2" type="text" id="solveNumber2">
+   </div>
+   <div class="hidden-img">
+    <img id="scaleImg" src="img/sprite.png" alt="Числоая ось" title="Числоая ось">  
+   </div>
+   
+    <script src="js/script.js"></script>
+</body>
+</html>
